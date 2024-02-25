@@ -29,7 +29,7 @@ This project is an Employee Management System that provides a platform for manag
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/employee-management-system.git
+   git clone https://github.com/Omri-Lvy/EmployeeSystem.git
     ```
 2. **Navigate to the `frontend` directory:**
    ```bash
