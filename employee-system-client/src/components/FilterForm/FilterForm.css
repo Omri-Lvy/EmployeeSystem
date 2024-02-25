@@ -1,0 +1,33 @@
+.filter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 100%;
+    gap: 1em;
+    margin: auto;
+}
+
+.filter-form span {
+    width: 50%;
+    text-align: start;
+    font-size: 1.25em;
+    font-weight: 600;
+
+}
+
+.filter-form .form-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.filter-form .form-input-container button {
+    background: #FDFDFD;
+    color: #D61A69;
+}
+
+.filter-form .form-input-container .form-input-wrapper {
+    width: 50%;
+}

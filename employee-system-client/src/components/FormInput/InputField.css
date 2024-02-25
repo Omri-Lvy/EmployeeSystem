@@ -1,0 +1,51 @@
+.form-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.form-input-wrapper .input-label {
+    position: absolute;
+    top: -0.65em;
+    left: 0.25em;
+    margin: 0 0.5em;
+    padding: 0 0.15em 0 0.075em;
+    background: #FDFDFD;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    color: #475569;
+}
+
+.form-input-wrapper:has(.form-input[required]) .input-label::after {
+    content: '*';
+    color: #e74149;
+}
+
+.form-input-wrapper .form-input {
+    height: 2.5em;
+    font-size: 1em;
+    padding: 0 0.75em;
+    border: 1px solid #94a3b8;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.form-input-wrapper .form-input::placeholder {
+    color: transparent;
+}
+
+.form-input-wrapper .form-input:placeholder-shown ~ .input-label {
+    top: 0.5em;
+}
+
+.form-input-wrapper .form-input:focus ~ .input-label {
+    top: -0.65em;
+}
+
+.form-input-wrapper .form-input:-webkit-autofill,
+.form-input-wrapper .form-input:-webkit-autofill:hover,
+.form-input-wrapper .form-input:-webkit-autofill:focus,
+.form-input-wrapper .form-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    border: 1px solid #94a3b8;
+}

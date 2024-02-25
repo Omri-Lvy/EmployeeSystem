@@ -1,0 +1,74 @@
+#root {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#root .search-and-add-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: min(90%,720px);
+    margin: auto;
+}
+
+h1, h2 {
+    margin: auto;
+    width: max-content;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #888888;
+}
+
+button[type=submit] {
+    border: 1px solid #CCCCCC;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    font-weight: 600;
+    background: #D61A69;
+    color: #DEDEDE;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 1.01em;
+}
+
+button[type=submit]:hover {
+    color: #DEDEDE;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+    transform: scaleX(1.05) scaleY(1.025);
+}
+
+
+button[type=submit]:active {
+    background: #af1254;
+}
+
+button[type=reset],
+button[type=button] {
+    border: none;
+    background: none;
+    font-size: 1em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button[type=button] {
+    color: #D61A69;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+button[type=reset]:hover {
+    color: #D61A69;
+}
+
+button[type=reset]:active {
+    color: #af1254;
+}

@@ -1,0 +1,14 @@
+.add-new-employee-btn {
+    border: 1px solid #CCCCCC;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    font-weight: 600;
+    background: #D61A69;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 1.01em;
+    width: 60%;
+    align-self: end;
+}
